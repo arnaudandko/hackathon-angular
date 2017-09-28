@@ -5,6 +5,8 @@ import {HttpModule} from '@angular/http'
 
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
+import {HomeResolverService} from "./home/home-resolver.service";
+import {HomeService} from "./home/home.service";
 
 @NgModule({
     declarations: [
@@ -14,11 +16,20 @@ import {HomeComponent} from './home/home.component';
     imports: [
         BrowserModule.withServerTransition({appId: 'my-app'}),
         RouterModule.forRoot([
-            {path: 'hotel/:id', component: HomeComponent, pathMatch: 'full'},
-        ]),
+            {
+                path: 'hotel/:id',
+                component: HomeComponent,
+                pathMatch: 'full',
+                resolve: {
+                    hotel: HomeResolverService
+                }
+            },
+        ],{
+            initialNavigation: 'enabled'
+        }),
         HttpModule
     ],
-    providers: [],
+    providers: [HomeResolverService, HomeService],
     bootstrap: [AppComponent],
     exports: [RouterModule]
 })

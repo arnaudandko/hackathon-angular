@@ -17,31 +17,16 @@ export class HomeComponent implements OnInit{
 
     constructor(
         public http: Http,
+        private router: Router,
         private route: ActivatedRoute
     ) {
     }
 
     ngOnInit() {
-        this.route.params.subscribe((params: any) => {
-            this.id = params.id;
-          if(this.id) {
-            this.getHotel(this.id).subscribe(hotel => {
-              this.hotel = hotel;
-              console.log(this.hotel);
+        this.route.data
+            .subscribe((data: { hotel: any }) => {
+                console.log(data);
+                this.hotel = data.hotel;
             });
-          }
-        });
-    }
-
-    private getHotel(hotelId: number): Observable<any> {
-        return this.http.get(`https://api.grandluxury.io/v1/hotels/${hotelId}`)
-            .map(this.extractData)
-            .map((data: any) => {
-                return data;
-            });
-    }
-
-    protected extractData(res: Response) {
-        return res.json() || { };
     }
 }
