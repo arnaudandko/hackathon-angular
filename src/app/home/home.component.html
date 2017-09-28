@@ -137,8 +137,8 @@
 <p class="breadcrumbs short">
 <a href="/hotels/united-kingdom/london?occ=a02">London</a>
 </p>
-
-    <h1 class="withBreadcrumbs">The Savoy            </h1>
+    <h1 class="withBreadcrumbs" *ngIf="loaded">{{ hotel.name }}</h1>
+              {{loaded}}
 </div>
 
 

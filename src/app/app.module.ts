@@ -14,7 +14,7 @@ import {HomeComponent} from './home/home.component';
     imports: [
         BrowserModule.withServerTransition({appId: 'my-app'}),
         RouterModule.forRoot([
-            {path: '', component: HomeComponent, pathMatch: 'full'},
+            {path: 'hotel/:id', component: HomeComponent, pathMatch: 'full'},
         ]),
         HttpModule
     ],
