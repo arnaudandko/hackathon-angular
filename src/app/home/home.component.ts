@@ -4,8 +4,11 @@ import { Response, Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 @Component({
-    selector: 'home',
-    template: `<h3>{{ message }}</h3>`
+  selector: 'home',
+  templateUrl: 'home.component.html',
+  styleUrls: [
+    './styles/glh.css'
+  ]
 })
 export class HomeComponent implements OnInit{
     public message: string;
