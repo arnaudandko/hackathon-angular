@@ -1,43 +1,41 @@
 import {Component, OnInit} from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { Response, Http } from '@angular/http';
-import { ActivatedRoute } from '@angular/router';
 import 'rxjs/add/operator/map';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'home',
-  templateUrl: 'home.component.html',
-  styleUrls: [
-    './styles/glh.css'
-  ]
+    selector: 'home',
+    templateUrl: 'home.component.html',
+    styleUrls: [
+        './styles/glh.css'
+    ]
 })
 export class HomeComponent implements OnInit{
     public message: string;
     public hotel: any;
-    public hotelId: number = null;
-    public loaded: boolean = false;
+    public id: number = null;
+    public myVar: string = 'hello';
 
     constructor(
+        public http: Http,
         private route: ActivatedRoute,
-        public http: Http
     ) {
         this.route.params.subscribe((params: any) => {
-            if (params.id) {
-                this.hotelId = params.id;
-            }
+            this.id = params.id;
+            console.log(this.id);
+            setTimeout(() => { this.myVar = 'salut' }, 10);
         });
+        if(this.id) {
+            this.getHotel(this.id).subscribe(hotel => {
+                this.hotel = hotel;
+                console.log(this.hotel);
+            });
+        }
     }
 
     ngOnInit() {
         this.message = 'Hello world';
-        if(this.hotelId) {
-            this.getHotel(this.hotelId).subscribe(hotel => {
-                this.loaded = true;
-                this.hotel = hotel;
-                console.log(this.loaded);
-            });
-        }
-
     }
 
     private getHotel(hotelId: number): Observable<any> {
@@ -51,6 +49,4 @@ export class HomeComponent implements OnInit{
     protected extractData(res: Response) {
         return res.json() || { };
     }
-
-
 }
