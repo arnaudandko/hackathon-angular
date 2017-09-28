@@ -12,19 +12,18 @@ import { ActivatedRoute } from '@angular/router';
     ]
 })
 export class HomeComponent implements OnInit{
-    public message: string;
     public hotel: any;
     public id: number = null;
-    public myVar: string = 'hello';
 
     constructor(
         public http: Http,
         private route: ActivatedRoute,
     ) {
+    }
+
+    ngOnInit() {
         this.route.params.subscribe((params: any) => {
             this.id = params.id;
-            console.log(this.id);
-            setTimeout(() => { this.myVar = 'salut' }, 10);
         });
         if(this.id) {
             this.getHotel(this.id).subscribe(hotel => {
@@ -32,10 +31,6 @@ export class HomeComponent implements OnInit{
                 console.log(this.hotel);
             });
         }
-    }
-
-    ngOnInit() {
-        this.message = 'Hello world';
     }
 
     private getHotel(hotelId: number): Observable<any> {
