@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { Response, Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
     selector: 'home',
@@ -17,20 +17,20 @@ export class HomeComponent implements OnInit{
 
     constructor(
         public http: Http,
-        private route: ActivatedRoute,
+        private route: ActivatedRoute
     ) {
     }
 
     ngOnInit() {
         this.route.params.subscribe((params: any) => {
             this.id = params.id;
-        });
-        if(this.id) {
+          if(this.id) {
             this.getHotel(this.id).subscribe(hotel => {
-                this.hotel = hotel;
-                console.log(this.hotel);
+              this.hotel = hotel;
+              console.log(this.hotel);
             });
-        }
+          }
+        });
     }
 
     private getHotel(hotelId: number): Observable<any> {
