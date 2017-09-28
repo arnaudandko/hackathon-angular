@@ -480,7 +480,7 @@ p.breadcrumbs.full {
 
 p.breadcrumbs span {
     display: inline-block;
-    background: url('/images/sprites.png') no-repeat -371px -438px;
+    background: url('/assets/images/sprites.png') no-repeat -371px -438px;
     padding: 2px 4px 2px 15px;
     color: #91c5c7
 }
@@ -583,15 +583,15 @@ a.details {
     text-transform: uppercase;
     display: inline-block;
     padding-right: 30px;
-    background: url('/images/sprites.png') no-repeat right -279px
+    background: url('/assets/images/sprites.png') no-repeat right -279px
 }
 
 a.less {
-    background: url('/images/sprites.png') no-repeat right -606px
+    background: url('/assets/images/sprites.png') no-repeat right -606px
 }
 
 a.details {
-    background: url('/images/sprites.png') no-repeat right -329px
+    background: url('/assets/images/sprites.png') no-repeat right -329px
 }
 
 a.more:hover,
@@ -627,7 +627,7 @@ ul.checkMarks {
 ul.checkMarks li {
     padding: 0 0 0 22px;
     margin: 0 0 5px 0;
-    background: url('/images/sprites.png') no-repeat -368px -637px
+    background: url('/assets/images/sprites.png') no-repeat -368px -637px
 }
 
 ul.checkMarks li.noBullet {
@@ -1103,7 +1103,7 @@ ul.menu li a.active:hover {
 }
 
 ul.menu li a.withSubmenu {
-    background: url('/images/sprites.png') no-repeat right -168px;
+    background: url('/assets/images/sprites.png') no-repeat right -168px;
     padding-right: 30px;
     margin-right: 16px
 }
@@ -1277,7 +1277,7 @@ div.imageWithCaption .caption span {
 .rating-big {
     width: 190px;
     height: 29px;
-    background-image: url('/images/sprites.png')
+    background-image: url('/assets/images/sprites.png')
 }
 
 .rating-big.r0 {
@@ -1307,7 +1307,7 @@ div.imageWithCaption .caption span {
 .rating-medium {
     width: 120px;
     height: 19px;
-    background-image: url('/images/sprites.png')
+    background-image: url('/assets/images/sprites.png')
 }
 
 .rating-medium.r0 {
@@ -1337,7 +1337,7 @@ div.imageWithCaption .caption span {
 .rating-small {
     width: 70px;
     height: 12px;
-    background-image: url('/images/sprites.png')
+    background-image: url('/assets/images/sprites.png')
 }
 
 .rating-small.r0 {
@@ -1622,7 +1622,7 @@ div.mapInfoWindow {
 .dialog-close {
     float: right;
     display: block;
-    background: #000 url('/images/sprites.png') -262px -412px;
+    background: #000 url('/assets/images/sprites.png') -262px -412px;
     width: 24px;
     height: 24px
 }
@@ -1638,11 +1638,11 @@ div.mapInfoWindow {
 }
 
 .quote-topleft {
-    background: url('/images/quote_top_left.png') no-repeat left top
+    background: url('/assets/images/quote_top_left.png') no-repeat left top
 }
 
 .quote-bottomright {
-    background: url('/images/quote_bottom_right.png') no-repeat right bottom
+    background: url('/assets/images/quote_bottom_right.png') no-repeat right bottom
 }
 
 @CHARSET "UTF-8";
@@ -1676,7 +1676,7 @@ div.mapInfoWindow {
 }
 
 .bookingForm-dates input {
-    background: #fff url('/images/sprites.png') no-repeat -350px -2px;
+    background: #fff url('/assets/images/sprites.png') no-repeat -350px -2px;
     padding-left: 30px;
     width: 33%
 }
@@ -1708,7 +1708,7 @@ div.mapInfoWindow {
 
 .bookingForm-guests a {
     display: block;
-    background: #fff url('/images/sprites.png') no-repeat right -135px;
+    background: #fff url('/assets/images/sprites.png') no-repeat right -135px;
     color: #000;
     padding: 8px 30px 6px 8px;
     height: 14px;
@@ -1931,7 +1931,7 @@ div.mapInfoWindow {
 }
 
 #quickSignupDialog .skip span {
-    background: url('/images/sprites.png') no-repeat -282px -442px;
+    background: url('/assets/images/sprites.png') no-repeat -282px -442px;
     width: 18px;
     height: 13px;
     display: inline-block
@@ -1998,7 +1998,7 @@ div.mapInfoWindow {
 
 @media(min-width:730px) {
     #dialog.quickSignupDialogWrapper {
-        background-image: url('/images/l-club-bg.jpg');
+        background-image: url('/assets/images/l-club-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         padding: 0
@@ -2056,7 +2056,7 @@ div.mapInfoWindow {
 .quickSignupBanner .dismiss {
     position: absolute;
     display: block;
-    background: url('/images/sprites.png') -262px -412px;
+    background: url('/assets/images/sprites.png') -262px -412px;
     width: 24px;
     height: 24px;
     top: 5px;
@@ -2233,7 +2233,7 @@ div.mapInfoWindow {
     width: 149px;
     height: 64px;
     margin: 0 auto;
-    background: url('/images/nav-narrow-logo.png') center center no-repeat
+    background: url('/assets/images/nav-narrow-logo.png') center center no-repeat
 }
 
 #layout-nav-showSub,
@@ -2243,7 +2243,7 @@ div.mapInfoWindow {
     width: 50px;
     height: 50px;
     top: 7px;
-    background-image: url('/images/sprites.png')
+    background-image: url('/assets/images/sprites.png')
 }
 
 #layout-nav-showSub {
@@ -2334,7 +2334,7 @@ div.mapInfoWindow {
 @media(min-width:480px) and (max-width:979px) {
     #layout-nav-title {
         width: 216px;
-        background-image: url('/images/nav-medium-logo.png')
+        background-image: url('/assets/images/nav-medium-logo.png')
     }
     #layout-nav-call {
         display: none
@@ -2530,7 +2530,7 @@ div.mapInfoWindow {
 }
 
 .layout-nav-login-menu .alert-icon {
-    background: url('/images/sprites.png') no-repeat -157px -424px;
+    background: url('/assets/images/sprites.png') no-repeat -157px -424px;
     display: inline-block;
     margin-top: -4px;
     margin-right: 4px;
@@ -2644,7 +2644,7 @@ div.mapInfoWindow {
 }
 
 #layout-nav-searchBtn {
-    background: #efefef url('/images/sprites.png') no-repeat -330px -402px;
+    background: #efefef url('/assets/images/sprites.png') no-repeat -330px -402px;
     width: 50px;
     text-indent: -9999px
 }
@@ -2672,7 +2672,7 @@ div.mapInfoWindow {
 }
 
 .layout-search-result .image {
-    background: url('/images/sprites.png') no-repeat;
+    background: url('/assets/images/sprites.png') no-repeat;
     width: 16px;
     height: 16px;
     margin: 0 5px 0 0;
@@ -2762,7 +2762,7 @@ div.mapInfoWindow {
 .layout-footer-social .ir {
     width: 30px;
     height: 30px;
-    background-image: url('/images/sprites.png');
+    background-image: url('/assets/images/sprites.png');
     float: left;
     margin: 0 4px 4px 0
 }
@@ -3136,7 +3136,7 @@ html.layout-empty {
     }
     .home-presentation .lclub .blockLink {
         padding-top: 235px;
-        background: url('/images/home-lclub.jpg') no-repeat center 0
+        background: url('/assets/images/home-lclub.jpg') no-repeat center 0
     }
 }
 
@@ -3162,12 +3162,12 @@ html.layout-empty {
 }
 
 .home-collection-glh {
-    background: url('/images/home-collection-glh.jpg') top center no-repeat;
+    background: url('/assets/images/home-collection-glh.jpg') top center no-repeat;
     margin-right: 2px
 }
 
 .home-collection-exigenz {
-    background: url('/images/home-collection-exigenz.jpg') top center no-repeat;
+    background: url('/assets/images/home-collection-exigenz.jpg') top center no-repeat;
     margin-left: 2px
 }
 
@@ -3185,7 +3185,7 @@ html.layout-empty {
     height: 40px;
     display: block;
     float: left;
-    background: url('/images/sprites.png') no-repeat left -94px
+    background: url('/assets/images/sprites.png') no-repeat left -94px
 }
 
 .home-collection-controls a.next {
@@ -3237,7 +3237,7 @@ html.layout-empty {
     width: 40px;
     height: 40px;
     display: block;
-    background: url('/images/sprites.png') no-repeat left -94px
+    background: url('/assets/images/sprites.png') no-repeat left -94px
 }
 
 .home-testimonials-controls a.next {
@@ -3419,7 +3419,7 @@ ul.about-us-fourPoints>li {
         width: 40px;
         height: 40px;
         display: inline-block;
-        background: url('/images/sprites.png') no-repeat left -94px
+        background: url('/assets/images/sprites.png') no-repeat left -94px
     }
     .about-us-testimonials-controls a.next {
         background-position: right -94px
@@ -3631,7 +3631,7 @@ ul.about-us-fourPoints>li {
 }
 
 .app.confirmed-app-form {
-    background: url('/images/bg-app-blur2.png') no-repeat;
+    background: url('/assets/images/bg-app-blur2.png') no-repeat;
     background-size: cover;
     max-width: 100%;
     padding: 0;
@@ -3995,19 +3995,19 @@ nav.menuWrapper.hotel-menu {
 .hotel-summary-picture .videoIcon {
     width: 100%;
     height: 100%;
-    background: url('/images/play-small.png') no-repeat center
+    background: url('/assets/images/play-small.png') no-repeat center
 }
 
 .hotel-summary-picture:hover .videoIcon {
-    background-image: url('/images/play-small-hover.png')
+    background-image: url('/assets/images/play-small-hover.png')
 }
 
 @media(min-width:1100px) {
     .hotel-summary-picture .videoIcon {
-        background-image: url('/images/play-large.png')
+        background-image: url('/assets/images/play-large.png')
     }
     .hotel-summary-picture:hover .videoIcon {
-        background-image: url('/images/play-large-hover.png')
+        background-image: url('/assets/images/play-large-hover.png')
     }
 }
 
@@ -4180,19 +4180,19 @@ dl.hotel-ratings dd {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('/images/play-small.png') no-repeat center
+    background: url('/assets/images/play-small.png') no-repeat center
 }
 
 .hotel-thumbGallery-image:hover .videoIcon {
-    background-image: url('/images/play-small-hover.png')
+    background-image: url('/assets/images/play-small-hover.png')
 }
 
 @media(min-width:1100px) {
     .hotel-thumbGallery-image .videoIcon {
-        background-image: url('/images/play-large.png')
+        background-image: url('/assets/images/play-large.png')
     }
     .hotel-thumbGallery-image:hover .videoIcon {
-        background-image: url('/images/play-large-hover.png')
+        background-image: url('/assets/images/play-large-hover.png')
     }
 }
 
@@ -4317,7 +4317,7 @@ dl.hotel-ratings dd {
     width: 52px;
     height: 52px;
     border-radius: 27px;
-    background: #ccc url('/images/sprites.png') no-repeat -60px -42px;
+    background: #ccc url('/assets/images/sprites.png') no-repeat -60px -42px;
     background-color: rgba(255, 255, 255, 0.55)
 }
 
@@ -4390,11 +4390,11 @@ dl.hotel-ratings dd {
     margin: 0 auto 5px;
     border: 1px solid #c03;
     border-radius: 20px;
-    background: url('/images/sprites.png') no-repeat -41px -641px
+    background: url('/assets/images/sprites.png') no-repeat -41px -641px
 }
 
 #membershipStatusDialog .down {
-    background: url('/images/sprites.png') no-repeat 0 -640px
+    background: url('/assets/images/sprites.png') no-repeat 0 -640px
 }
 
 #membershipStatusDialog .firstLevel a:hover,
@@ -4565,7 +4565,7 @@ dl.hotel-ratings dd {
 
 .hotel-gallery-close a {
     display: block;
-    background: #000 url('/images/sprites.png') -262px -412px;
+    background: #000 url('/assets/images/sprites.png') -262px -412px;
     width: 24px;
     height: 24px
 }
@@ -4599,7 +4599,7 @@ dl.hotel-ratings dd {
     height: 40px;
     display: block;
     float: left;
-    background: url('/images/sprites.png') no-repeat left -94px
+    background: url('/assets/images/sprites.png') no-repeat left -94px
 }
 
 .hotel-gallery-next {
@@ -4748,7 +4748,7 @@ p.browse-collection-hotelsLevel2 {
         margin-right: 10px;
         text-transform: uppercase;
         color: #f0f0f0;
-        background: url('/images/sprites.png') no-repeat right -167px
+        background: url('/assets/images/sprites.png') no-repeat right -167px
     }
     .book-currencyMenu:hover {
         text-decoration: none;
@@ -5308,7 +5308,7 @@ p.browse-collection-hotelsLevel2 {
 }
 
 .book-breadcrumbs.withLogin li.separator {
-    background: url('/images/sprites.png') no-repeat right -90px;
+    background: url('/assets/images/sprites.png') no-repeat right -90px;
     padding: 0;
     width: 48px;
     height: 44px
@@ -5497,7 +5497,7 @@ p.browse-collection-hotelsLevel2 {
     height: 1em;
     width: 16px;
     margin-right: 7px;
-    background: url('/images/sprites.png') no-repeat -368px -33px
+    background: url('/assets/images/sprites.png') no-repeat -368px -33px
 }
 
 .book-select-ratesList .rateSelector {
@@ -5623,7 +5623,7 @@ p.browse-collection-hotelsLevel2 {
 
 .confirmed-app-form {
     padding: 30px;
-    background: url('/images/bg-app-blur1.png') no-repeat;
+    background: url('/assets/images/bg-app-blur1.png') no-repeat;
     color: #fff;
     max-width: 600px
 }
@@ -5837,15 +5837,15 @@ p.browse-collection-hotelsLevel2 {
 }
 
 .myaccount-order-accept .dateTimeGuests li.calendar {
-    background: url('/images/calendar.png') no-repeat 0 0
+    background: url('/assets/images/calendar.png') no-repeat 0 0
 }
 
 .myaccount-order-accept .dateTimeGuests li.time {
-    background: url('/images/time.png') no-repeat 0 0
+    background: url('/assets/images/time.png') no-repeat 0 0
 }
 
 .myaccount-order-accept .dateTimeGuests li.guest {
-    background: url('/images/guest.png') no-repeat 0 0
+    background: url('/assets/images/guest.png') no-repeat 0 0
 }
 
 .myaccount-order-accept .details {
@@ -6248,47 +6248,47 @@ dd.ratingForm {
         display: none
     }
     .emirates-banner1.en {
-        background: url('/images/emirates/banner-1-en.png') no-repeat;
+        background: url('/assets/images/emirates/banner-1-en.png') no-repeat;
         width: 400px;
         height: 383px
     }
     .emirates-banner1.fr {
-        background: url('/images/emirates/banner-1-fr.png') no-repeat;
+        background: url('/assets/images/emirates/banner-1-fr.png') no-repeat;
         width: 400px;
         height: 383px
     }
     .emirates-banner1.de {
-        background: url('/images/emirates/banner-1-de.png') no-repeat;
+        background: url('/assets/images/emirates/banner-1-de.png') no-repeat;
         width: 400px;
         height: 383px
     }
     .emirates-banner2.en {
-        background: url('/images/emirates/banner-2-en.png') no-repeat;
+        background: url('/assets/images/emirates/banner-2-en.png') no-repeat;
         width: 400px;
         height: 383px
     }
     .emirates-banner2.fr {
-        background: url('/images/emirates/banner-2-fr.png') no-repeat;
+        background: url('/assets/images/emirates/banner-2-fr.png') no-repeat;
         width: 400px;
         height: 383px
     }
     .emirates-banner2.de {
-        background: url('/images/emirates/banner-2-de.png') no-repeat;
+        background: url('/assets/images/emirates/banner-2-de.png') no-repeat;
         width: 400px;
         height: 383px
     }
     .emirates-banner3.en {
-        background: url('/images/emirates/banner-3-en.png') no-repeat;
+        background: url('/assets/images/emirates/banner-3-en.png') no-repeat;
         width: 400px;
         height: 383px
     }
     .emirates-banner3.fr {
-        background: url('/images/emirates/banner-3-fr.png') no-repeat;
+        background: url('/assets/images/emirates/banner-3-fr.png') no-repeat;
         width: 400px;
         height: 383px
     }
     .emirates-banner3.de {
-        background: url('/images/emirates/banner-3-de.png') no-repeat;
+        background: url('/assets/images/emirates/banner-3-de.png') no-repeat;
         width: 400px;
         height: 383px
     }
@@ -6815,7 +6815,7 @@ dd.ratingForm {
     font-size: 1px;
     text-decoration: none;
     border: 0;
-    background: url('/images/sprites.png') -48px -50px no-repeat;
+    background: url('/assets/images/sprites.png') -48px -50px no-repeat;
     cursor: pointer;
     outline: 0
 }
@@ -6897,7 +6897,7 @@ dd.ratingForm {
     display: block;
     width: 100%;
     height: 100%;
-    background: url('/images/sprites.png') no-repeat 0 -49px
+    background: url('/assets/images/sprites.png') no-repeat 0 -49px
 }
 
 .select2-search {
@@ -6922,7 +6922,7 @@ dd.ratingForm {
     font-family: sans-serif;
     font-size: 1em;
     border: 1px solid #aaa;
-    background: #fff url('/images/sprites.png') no-repeat right -464px
+    background: #fff url('/assets/images/sprites.png') no-repeat right -464px
 }
 
 .select2-drop.select2-drop-above .select2-search input {
@@ -6930,7 +6930,7 @@ dd.ratingForm {
 }
 
 .select2-search input.select2-active {
-    background: #fff url('/images/select2-spinner.gif') no-repeat 100%
+    background: #fff url('/assets/images/select2-spinner.gif') no-repeat 100%
 }
 
 .select2-container-active .select2-choice,
@@ -7070,7 +7070,7 @@ dd.ratingForm {
 }
 
 .select2-more-results.select2-active {
-    background: #f4f4f4 url('/images/select2-spinner.gif') no-repeat 100%
+    background: #f4f4f4 url('/assets/images/select2-spinner.gif') no-repeat 100%
 }
 
 .select2-more-results {
@@ -7143,7 +7143,7 @@ dd.ratingForm {
 }
 
 .select2-container-multi .select2-choices .select2-search-field input.select2-active {
-    background: #fff url('/images/select2-spinner.gif') no-repeat 100%!important
+    background: #fff url('/assets/images/select2-spinner.gif') no-repeat 100%!important
 }
 
 .select2-default {
@@ -7185,7 +7185,7 @@ dd.ratingForm {
     top: 4px;
     font-size: 1px;
     outline: 0;
-    background: url('/images/sprites.png') -48px -50px no-repeat
+    background: url('/assets/images/sprites.png') -48px -50px no-repeat
 }
 
 .select2-container-multi .select2-search-choice-close {
@@ -7543,7 +7543,7 @@ html.swipeshow-grabbed * {
 }
 
 .main-slide-content .right-content {
-    background: url('/images/bg-app-right-box.png') repeat-x center 0;
+    background: url('/assets/images/bg-app-right-box.png') repeat-x center 0;
     padding: 70px 25px 112px;
     vertical-align: top
 }
@@ -7585,7 +7585,7 @@ html.swipeshow-grabbed * {
     }
     .app-mobile {
         display: block;
-        background: url('/images/bg-app-right-box.png') repeat center 0
+        background: url('/assets/images/bg-app-right-box.png') repeat center 0
     }
     .app-mobile .main-slide-content .right-content {
         width: 100%;
